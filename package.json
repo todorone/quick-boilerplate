@@ -1,21 +1,18 @@
 {
-  "name": "brunch-app",
-  "description": "Brunch.io application",
-  "private": true,
-  "author": "Brunch",
-  "version": "0.0.1",
-  "repository": "",
-  "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "auto-reload-brunch": "^2",
-    "babel-brunch": "~6.0",
-    "babel-preset-latest": "^6",
-    "brunch": "^2",
-    "clean-css-brunch": "^2",
-    "uglify-js-brunch": "^2"
-  }
+	"name": "Documents",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pingy dev",
+		"build": "pingy export"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@pingy/cli": "^0.6.14",
+		"node-sass": "^4.5.3"
+	}
 }

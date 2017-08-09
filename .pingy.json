@@ -1,0 +1,24 @@
+{
+	"name": "Prototype",
+	"exportDir": "dist",
+	"minify": true,
+	"compile": true,
+	"exclusions": [
+		{
+			"path": "node_modules",
+			"action": "exclude",
+			"type": "dir"
+		},
+		{
+			"path": "README.md",
+			"action": "exclude",
+			"type": "file"
+		},
+		{
+			"path": "LICENSE",
+			"action": "exclude",
+			"type": "file"
+		}
+	],
+	"port": 64677
+}
